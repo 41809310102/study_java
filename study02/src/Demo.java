@@ -6,7 +6,6 @@ public class Demo {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         if(a==1){
-
             System.out.println("这是1");
         }else if(a==2){
 
