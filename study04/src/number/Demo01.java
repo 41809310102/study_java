@@ -9,17 +9,24 @@ public class Demo01 {
 //            int a = 12;
 //            int b = 20;
 //            System.out.println(Math.max(a, b));
-              float a = 1.25f;
-              float b = 1.12f;
-              float c = a-b;
-              if(Math.abs(c)<0.135){
-                  System.out.println("计算有效");
 
-              }else{
-                  System.out.println("计算无效");
-                  //
-              }
-              System.out.println(c);
+              Character b = 'a';
+            System.out.println(Character.isLetter('7'));
 
+            String str = "hujunjie";
+////            a = 97; 26个
+////            A = 65; B = 66
+//            'a'-'z'
+//             'A'-'Z'
+            char a = '1';
+            char A = '1';
+            System.out.println((int)a);
+            System.out.println((int)A);
+            int c = (int)a;
+            if(c<=123&&c>65){
+                System.out.println("是一个字母");
+            }else{
+                System.out.println("NONONO");
+            }
         }
 }
